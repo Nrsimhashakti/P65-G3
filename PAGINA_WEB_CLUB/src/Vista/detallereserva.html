@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Reserva</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/touchTouch.css">
+    <link rel="stylesheet" href="css/reserva.css">
+
+</head>
+<body  class="">
+
+</head>
+<body>
+
+    <!--==============================header=================================-->
+<header style="padding-bottom: 50px;">
+    <div class="container_12">
+      <div class="grid_12"> 
+          <h1 style="width:260px">
+            <a style="border-radius: 20px;" href="inicio1.html"><img src="images/logo.png" alt="Gerald Harris attorney at law"></a>
+          </h1>  
+      </div>
+          <div class="menu_block">
+              <nav  class="" >
+                  <ul class="sf-menu">
+                      <li><a href="inicio1.html">Inicio</a></li>
+                      <li><a href="formularioCotizacion.html">Cotizar</a></li>
+                      <li><a href="formularioReserva.html">Reservar</a></li>
+                      <li><a href="historial.html">Historial</a></li>
+                      <li><a href="miCuenta.html">Mi Cuenta</a></li>
+                      <li><a href="inicio1.html">Salir</a></li>
+                  </ul>
+              </nav>
+              <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+      </div>
+  </header>
+  
+  <div class="main">
+
+ <!--=======content================================-->
+    <div class="content">
+        <div class="container_12">
+            <div class="container">
+                <h3 style="padding-top: 20px">DETALLE DE SU RESERVA</h3>   
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                          <label class="details">N° Cotización
+                            <input type="text" disabled required>
+                          </label>
+                        </div>
+                      
+                        <div class="input-box">
+                            <label for="Nº reserva">Nº reserva
+                                <input type="number" id="Nº reserva" class="controls" value="234" disabled>
+                            </label>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="correo">Correo
+                                <input type="email" id="correo" class="controls" disabled>
+                            </label>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="telefono">Telefono de contacto
+                                <input type="tel" id="telefono" class="controls" disabled>
+                            </label>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="nombres">Nombres
+                                <input type="text" id="nombres" class="controls" disabled>
+                            </label>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="apellidos">Apellidos
+                                <input type="text" id="apellidos" class="controls" disabled>
+                            </label>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="Nº personas">Nº de Personas
+                                <input type="number" min="25" max="200" id="Nº personas" class="controls">
+                            </label>
+                        </div>
+
+
+                    </div>
+
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span>Evento</span>
+                            <input list="evento" class="controls">
+                            <datalist id="evento">
+                                <option value="Deportivo"></option>
+                                <option value="Social"></option>
+                             </datalist>
+                        </div>
+
+                        <div class="input-box">
+                            <span>Tipo de evento</span>
+                            <input list="tipo evento" class="controls">
+                            <datalist id="tipo evento">
+                                <option value="Matrimonio"></option>
+                                <option value="Grado"></option>
+                                <option value="Envento empresarial"></option>
+                                <option value="Cumpleaños"></option>
+                                <option value="Bautizo"></option>
+                            </datalist>
+                        </div>
+                        
+                        <div class="input-box">
+                            <span>Area evento</span>
+                            <input list="area evento" class="controls">
+                            <datalist id="area evento">
+                                <option value="Salon presidencial"></option>
+                                <option value="Piscina"></option>
+                                <option value="Cancha de futbol"></option>
+                            </datalist>
+                        </div>
+
+
+                        <div class="user-details">
+                            <div class="input-box">
+                                <label for="fecha">Fecha
+                                    <input type="date" id="fecha" class="controls">
+                                </label>
+                            </div>
+                            <div class="input-box">
+                                <label for="hora">Hora
+                                    <input type="time" id="hora" class="controls">
+                                </label>
+                            </div>  
+                        </div>
+
+                        <div class="user-details">
+                            <div class="input-box">
+                                <label for="comida">Comida
+                                    <input type="text" id="comida" class="controls">
+                                </label>
+                            </div>
+                            <div class="input-box">
+                                <label for="bebidas">Bebida
+                                    <input type="text" id="bebidas" class="controls">
+                                </label>
+                            </div>
+                            <div class="input-box">
+                                <label for="musica">Musica
+                                    <input type="text" id="musica" class="controls">
+                                </label>
+                            
+                            </div>
+                        </div>
+
+                        <div class="user-details">
+                            <div class="input-box">
+                                <label for="adicionales">Adicionales
+                                <textarea class="controls" type="text" name="txtadicionales" id="txtadicionales" placeholder=""></textarea>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="button"> 
+                    <input type="button" value="Actualizar">
+                    <input type="reset" value="Regresar">
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+    
+
+
+    <!--==============================footer=================================-->
+
+<footer>		
+	<div class="container_12">
+	<div class="grid_12">
+		<div class="socials">
+			<a href="https://www.facebook.com/Clublosarrayanes"></a>
+			<a href="https://twitter.com/ClubArrayanes"></a>
+		</div>
+			<div class="copy">
+		 CLub Campestre Los Arrayanes &copy; 2021 
+		 </div></div>
+		 <div class="clear"></div>
+	</div>
+
+</footer>
+</body>
+</html>
